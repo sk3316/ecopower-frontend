@@ -1,0 +1,66 @@
+.home-container {
+    margin: 20px;
+  }
+  
+  .welcome-section {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .welcome-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .welcome-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .search-section, .tips-section, .news-section, .map-section {
+    margin-bottom: 40px;
+  }
+  
+  .search-section h2, .tips-section h2, .news-section h2, .map-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .tips-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 1.1rem;
+  }
+  
+  .news-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .news-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 10px;
+    flex: 0 0 48%;
+    border-radius: 10px;
+  }
+  
+  .news-item h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .news-item p {
+    font-size: 1rem;
+  }
+  
+  .map-section {
+    margin-top: 40px;
+  }
+  
+  .map-container {
+    margin-top: 20px;
+  }
+  

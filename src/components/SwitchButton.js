@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import { Modal, Button } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
+import './SwitchButton.css';  // Optional: Add custom styles for the button
 
 const SwitchButton = () => {
   const [showModal, setShowModal] = useState(false);
-  const navigate = useNavigate();  // Hook for navigation
+  const navigate = useNavigate();
 
   const handleButtonClick = () => {
     setShowModal(true);
@@ -16,13 +17,14 @@ const SwitchButton = () => {
 
   const startSwitchingProcess = () => {
     setShowModal(false);
-    navigate('/switching-process');  // Redirect to the switching process page
+    navigate('/switching-process');  // Navigate to the switching process page
   };
 
   return (
-    <div className="text-center my-5">
-      <button className="btn btn-success btn-lg switch-btn" onClick={handleButtonClick}>
-        Switch to Renewable Energy Now
+    <>
+      {/* Button in the Navbar */}
+      <button className="btn btn-success btn-sm switch-btn-nav" onClick={handleButtonClick}>
+        Switch to Renewable Energy
       </button>
 
       {/* Modal for switching process */}
@@ -45,7 +47,7 @@ const SwitchButton = () => {
           </Button>
         </Modal.Footer>
       </Modal>
-    </div>
+    </>
   );
 };
 

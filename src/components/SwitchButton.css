@@ -1,0 +1,11 @@
+.switch-btn-nav {
+    margin-left: 15px;
+    color: white;
+    font-size: 0.9rem;
+  }
+  
+  .switch-btn-nav:hover {
+    background-color: #28a745;
+    border: none;
+  }
+  
