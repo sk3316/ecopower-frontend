@@ -15,6 +15,7 @@ const Home = () => {
       longitude: -0.09,
       address: '123 Green St, Eco City',
       distance: '2.5 km',
+      image: 'https://via.placeholder.com/150' // Placeholder image
     },
     {
       id: 2,
@@ -23,6 +24,7 @@ const Home = () => {
       longitude: -0.1,
       address: '456 Tech Ave, Power City',
       distance: '3.1 km',
+      image: 'https://via.placeholder.com/150' // Placeholder image
     },
     {
       id: 3,
@@ -31,9 +33,9 @@ const Home = () => {
       longitude: -0.08,
       address: '789 Future St, Clean City',
       distance: '1.8 km',
+      image: 'https://via.placeholder.com/150' // Placeholder image
     },
   ];
-
   return (
     <div className="home-container">
       {/* Welcome Section */}
